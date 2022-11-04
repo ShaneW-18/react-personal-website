@@ -2,7 +2,7 @@
   width: 100%;
   height: 100px;
   background: #1e002b;
-  position: relative;
+  
   
 }
 
@@ -11,6 +11,8 @@
   justify-content: center;
   color: white;
   font-size: 20px;
+  position: relative;
+
 }
 
 .navbar a {

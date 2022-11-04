@@ -29,8 +29,11 @@ function Navbar() {
       <div className="links">
           
         <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
-        <Link to="/experience"> Experience </Link>
+  
+        <Link to="/"> Projects </Link>
+        <Link to="/"> Experience </Link>
+        {/* A JSX comment */}
+
       </div>
 
     </div>
