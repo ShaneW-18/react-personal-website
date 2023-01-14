@@ -1,3 +1,15 @@
 .experience{
     background-color: #1e002b;
 }
+.vertical-timeline-element--education{
+    color: white;
+}
+.vertical-timeline-element--work{
+    color: white;
+}
+h3{
+    color: black;
+}
+h4{
+    color: black;
+}

@@ -14,7 +14,7 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2015 - 2019"
+          date={"2015 - 2019"}
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -22,6 +22,21 @@ function Experience() {
             Bethel Park High School, Bethel Park, PA
           </h3>
           <p> High School Diploma</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Summer of 2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Engineering Intern at Schwab
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Austin, TX
+          </h4>
+          <p>Helped develope Scwab assistant for cosumer expiernce and pitch new ideas for the team.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -41,20 +56,6 @@ function Experience() {
           <p> Computer Science | Minor in Information Systems</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="Summer of 2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Software Engineering Intern at Schwab
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Austin, TX
-          </h4>
-          <p>Helped develope Scwab assistant for cosumer expiernce and pitch new ideas for the team.</p>
-        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -63,7 +64,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Future Software Engineer at Schwab
+            Software Engineer at Schwab
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Austin, TX

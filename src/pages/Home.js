@@ -16,7 +16,7 @@ function Home() {
         <div className="prompt">
           <p>A software developer with a passion for technology to make a difference in the world and have an impact on people's lives.</p>
           <div className="socialMedia">
-            <LinkedInIcon onClick={event =>  window.open(' www.linkedin.com/in/shane-wiles', '_blank')} />
+            <LinkedInIcon onClick={event =>  window.open('https://www.linkedin.com/in/shane-wiles', '_blank')} />
             <EmailIcon onClick={event =>  window.open('mailto:shane@swiles.tech', '_blank')} />
             <GithubIcon onClick={event =>  window.open('https://github.com/ShaneW-18', '_blank')} />
           </div>
@@ -28,13 +28,13 @@ function Home() {
           <li className="item">
             <h2>Software & Tools</h2>
             <span>
-               MongoDB, VPS hosting, Treafik, Docker, InteliJ, Git, Postman,
-               StencilJS, Postman, <br/>Jira, Confluence, Xamarin
+                VPS hosting, Treafik, Docker, InteliJ, Git, Postman,
+               StencilJS, Postman, <br/> Tensorflow, Jira, Confluence, Xamarin
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Maven, C#, TypeScript, CSS/HTML, C++, Node.js</span>
+            <span>JavaScript, Python, Jupiter notebooks, Java, Maven, C#, TypeScript, CSS/HTML, C++, Node.js</span>
           </li>
         </ol>
       </div>
